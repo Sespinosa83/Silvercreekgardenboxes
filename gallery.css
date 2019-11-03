@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background-image: url("images/gardenboxmain.jpg");
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;	
+	height: 100%;
+}
+
+div #content {
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+a.colorphone:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a.colormail:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+img.facebooktop {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+img.instagramtop {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.social {
+	margin-left: 10px;
+}
+
+.my-4 {
+	color: black;
+}
+
+.nav-link.contact {
+	margin-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+	font-weight: 700;
+}
+
+.bottom-p {
+	padding: 5px;
+}
+
+div.jumbotron {
+	height: 100%;
+	padding: 5px;
+	background-color: #49849e;
+	border-radius: 0px 0px 20px 20px
+}
+
+div.jumbotron.gallery {
+	background-color: #0b7519;
+	border-radius: 15px 2px;
+	padding: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+div.jumbotron.gallery.one {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -1px;
+	width: 30%;
+	height: 45px;
+	border-radius: 20px 20px 0px 0px;
+	padding: 2px;
+}
+
+i.fa.fa-camera-retro::before {
+	color: black;
+}
+
+.lead {
+	margin-bottom: 2px;
+}
+
+h1.display-4 {
+	margin-bottom: 2px;
+	font-size: 25px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+h1.sc {
+	text-align: center;
+}
+
+.sc {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+}
+
+div.row {
+	text-align: center;
+}
+
+.colormail {
+	color: white;
+}
+
+.colorphone {
+	color: white;
+}
+
+strong.phone {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+strong.mail {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.img-thumbnail {
+	margin-bottom: 15px;
+	width: 100%;
+	height: 80%;
+	padding-right: 5px;
+	border: 1px;
+	padding: 0.10rem;
+}
+
+img.img-thumbnail {
+	margin-bottom: 1px;
+}
+.col-lg-3.col-md-6.col-sm-6.color.last {
+	height: fit-content;
+}
+
+#footer {
+    clear: both;
+    background-color: #49849e;
+    padding: .5em;
+    color: #fff;
+    height: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#footer p.left {
+    text-align:left;
+    float:left;
+	margin-bottom: 0px;
+}
+
+#footer p.right {
+    float:right;
+    text-align:right;
+	margin-bottom: 0px;
+}
+
+img.facebookbottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+}
+
+img.instagrambottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+@media only screen and (max-width: 768px){
+	
+	div.row{
+		text-align: center;
+	}
+	div.jumbotron.gallery.one{
+		width: 300px;
+	}
+	img.img-thumbnail.two {
+	height: 80%;
+}
+
+}
+@media only screen and (max-width: 425px) {
+	#footer p.right {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#footer p.left {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;	
+	}
+	#footer {
+		height: 100px;
+		position: inherit;
+	}
+	strong.colorphone {
+		page-break-before: left;
+	}
+	
+	div#footer {
+		height: 90px;
+	}
+	p.lead {
+		width: 305px;
+	}
+	div.jumbotron {
+		background-color: #87d6f5;
+	}
+	
+	img.img-thumbnail.last {
+		height: 450px;
+	}
+}

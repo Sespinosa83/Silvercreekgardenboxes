@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-position: 15% 50%;
+	background-image: url("images/gardenboxmain.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+div #content {
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+a.colorphone:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a.colormail:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.social {
+	margin-left: 10px;
+}
+
+.my-4 {
+	color: black;
+}
+
+strong.phone {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+strong.mail {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.nav-link.contact {
+	margin-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+	font-weight: 700;
+}
+
+.bottom-p {
+	padding: 5px;
+}
+
+div.jumbotron {
+	padding: 5px;
+	background-color: #49849e;
+	border-radius: 0px 0px 20px 20px
+}
+
+div.jumbotron-fluid {
+	margin-bottom: -10px;
+}
+
+a.btn.btn-outline-primary {
+	width: 250px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.lead {
+	margin-bottom: 2px;
+}
+
+h1.display-4 {
+	margin-bottom: 2px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.card-img-top {
+	height: 70%
+}
+
+.colormail {
+	color: white;
+}
+
+.colorphone {
+	color: white;
+}
+
+div#content {
+	padding-top: 5px
+}
+
+h1.display-4 {
+	font-size: 25px;
+}
+
+.card-deck {
+	padding: 10px 30px;
+}
+
+div.card {
+	margin: 3% 0%;
+}
+
+.btn {
+	font-weight: 700;
+}
+
+div.card {
+	width: 100%;
+}
+
+h5.card-title {
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	width: 100%;
+    background-color: #49849e;
+    padding: .5em;
+    color: #fff;
+    bottom: 0;
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: auto;
+}
+
+#footer p.left {
+    float:left;
+	margin-bottom: 0px;
+}
+
+#footer p.right {
+    float:right;
+	margin-bottom: 0px;
+}
+
+img.facebookbottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+	margin-bottom: 5px;
+}
+
+img.instagrambottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 426px){
+
+	#footer p.right {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#footer p.left {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;	
+	}
+	#footer {
+		height: 100px;
+		position: inherit;
+	}
+	strong.colorphone {
+		page-break-before: left;
+	}
+	
+	div#footer {
+		height: 90px;
+	}
+	div.jumbotron {
+		background-color: #87d6f5;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	a.btn.btn-outline-primary {
+     	width: auto;
+	}
+}

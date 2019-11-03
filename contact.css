@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	height: 100%;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-position: 15% 70%;
+	background-image: url("images/gardenboxmain.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+div #content {
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+a.colorphone:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a.colormail:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.social {
+	margin-left: 10px;
+}
+
+.my-4 {
+	color: black;
+}
+
+strong.phone {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+strong.mail {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.nav-link.contact {
+	margin-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+	font-weight: 700;
+}
+
+.bottom-p {
+	padding: 5px;
+}
+
+container {
+	width: 100%;
+}
+
+div.card-body {
+	background-color: #87d6f5;
+}
+
+div.card.text-center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+div.jumbotron {
+	padding: 5px;
+	background-color: #49849e;
+	border-radius: 0px 0px 20px 20px
+}
+
+a.btn.btn-outline-primary {
+	width: 250px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.lead {
+	margin-bottom: 2px;
+}
+
+h1.display-4 {
+	margin-bottom: 2px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.card-img-top {
+	height: 50%;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.colormail {
+	color: white;
+}
+
+.colormail {
+	font-size: 20px;
+}
+
+.colorphone {
+	color: white;
+}
+
+div#content {
+	padding-top: 5px
+}
+
+h1.display-4 {
+	font-size: 25px;
+}
+
+h1.sc {
+	text-align: center;
+}
+
+h5.card-title {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'PT Serif', serif; 
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li.info {
+	font-size: 25px;
+}
+
+.IG {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin-top: 5px;
+}
+
+.FB {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin-top: 5px;
+}
+
+#footer {
+	width: 100%;
+	position: fixed;
+    background-color: #49849e;
+    padding: .5em;
+    color: #fff;
+    bottom: 0;
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: auto;
+}
+
+#footer p.left {
+    float:left;
+	margin-bottom: 0px;
+}
+
+#footer p.right {
+    float:right;
+	margin-bottom: 0px;
+}
+
+img.facebookbottom {
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+	margin-bottom: 5px;
+}
+
+img.instagrambottom {
+	width: 25px;
+	height: 25px;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 425px){
+
+	#footer p.left {
+		text-align: left;
+		margin-bottom: 0px;	
+	}
+	#footer {
+		height: fit-content;
+	}
+	strong.colorphone {
+		page-break-before: left;
+	}
+		
+	div.card.text-center {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	p.lead {
+		width: 310px;
+	}
+	div.jumbotron {
+		background-color: #87d6f5;
+	}
+	.container-fluid {
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+}

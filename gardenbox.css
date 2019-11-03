@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("images/gardenboxmain.jpg");
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;
+	height: 100%;
+}
+
+
+div #content {
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+a.colorphone:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a.colormail:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.social {
+	margin-left: 10px;
+}
+
+.my-4 {
+	color: black;
+}
+
+.nav-link.contact {
+	margin-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+	font-weight: 700;
+}
+
+.bottom-p {
+	padding: 5px;
+}
+
+div.jumbotron {
+	padding: 5px;
+	background-color: #49849e;
+	border-radius: 0px 0px 20px 20px
+}
+
+div.jumbotron.gallery {
+	background-color: #0b7519;
+	border-radius: 15px 2px;
+	padding: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+div.jumbotron.gallery.one {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -1px;
+	width: 50%;
+	height: 45px;
+	border-radius: 20px 20px 0px 0px;
+	padding: 2px;
+}
+
+strong.phone {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+strong.mail {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+li.nodot {
+	list-style-type: none;
+}
+
+.lead {
+	margin-bottom: 2px;
+}
+
+h5.card-title {
+	font-size: 20px;
+	text-align: center;
+}
+
+h5.card-title.three {
+	margin-top: 20%;
+    margin-bottom: 0;
+}
+
+div.card-body.six {
+	margin-bottom: 20px;
+}
+
+div.card-img-top {
+	height: 30%;
+}
+
+.card-img-top.one {
+	height: 45%;
+}
+
+.card-img-top.two {
+	height: 45%;
+}
+
+img.card-img-top.six {
+	height: 30%;
+}
+
+div.card-deck {
+	margin-bottom: 20px;
+}
+
+h1.display-4 {
+	margin-bottom: 2px;
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+.sc {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+h1.sc {
+	color: black;
+}
+
+ul {
+	padding-left: 5px;
+}
+
+.colormail {
+	color: white;
+}
+
+.colorphone {
+	color: white;
+}
+
+strong.titlecard {
+	font-size: 30px;
+	color: black;
+}
+
+strong.phone {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+strong.mail {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+strong.titlecard {
+	font-family: 'PT Serif', serif;
+	letter-spacing: 3px;
+}
+
+div#content {
+	padding-top: 5px
+}
+
+h1.display-4 {
+	font-size: 25px;
+}
+
+#footer {
+	width: 100%;
+    background-color: #49849e;
+    padding: .5em;
+    color: #fff;
+    bottom: 0;
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: auto;
+}
+
+#footer p.left {
+    float:left;
+	margin-bottom: 0px;
+}
+
+#footer p.right {
+    float:right;
+	margin-bottom: 0px;
+}
+
+img.facebookbottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+	margin-bottom: 5px;
+}
+
+img.instagrambottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 5px;
+}
+	h5.centerQuote {
+		text-align: center;
+	}
+	p.centerQuote {
+		text-align: center;
+		font-size: 20px;
+	}
+
+@media only screen and (max-width: 768px) {
+	
+	img.card-img-top.one {
+		height: 35%;
+	}
+	img.card-img-top.two {
+		height: 25%;
+	}
+	img.card-img-top.six {
+		height: 15%;
+	}
+	div.jumbotron.gallery.one {
+		width: 300px;
+	}
+	div.card-body.eight {
+		padding-right: 5px;
+	}
+	h5 {
+		font-size: 15px;
+	}
+	strong.titlecard {
+		font-size: 20px;
+	}
+	dic.container {
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 425px){
+
+	#footer p.right {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#footer p.left {
+		float: none;
+		text-align: left;
+		margin-bottom: 0px;	
+	}
+	#footer {
+		height: 100px;
+		position: inherit;
+	}
+	strong.colorphone {
+		page-break-before: left;
+	}
+	
+	div#footer {
+		height: 90px;
+	}
+	div.card-body {
+		height: 375px;
+	}
+	.container {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	p.lead {
+		width: 305px;
+	}
+	div.jumbotron {
+		background-color: #87d6f5;
+	}
+	div.card-body {
+		height: fit-content;
+	}
+}

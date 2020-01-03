@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 	font-family: 'Quicksand', sans-serif;	
 	height: 100%;
+	color: darkslategray;
 }
 
 div #content {
@@ -15,6 +16,17 @@ div #content {
 	padding-top: 5%;
 }
 
+img.logo {
+	width: 200px;
+}
+
+.navbar {
+	padding: 2px 0px;
+}
+
+.navbar navbar-expand-lg navbar navbar-light sticky-top {
+	padding: 0px;
+}
 
 a.colorphone:hover {
 	text-decoration: none;
@@ -51,7 +63,7 @@ img.instagramtop {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color:black;
+	color: darkslategray;
 	font-weight: 700;
 }
 
@@ -62,13 +74,15 @@ img.instagramtop {
 div.jumbotron {
 	height: 100%;
 	padding: 5px;
-	background-color: #49849e;
-	border-radius: 0px 0px 20px 20px
+	
+}
+
+div.jumbotron.jumbotron-fluid {
+	
+	background-color: #06a9ee;
 }
 
 div.jumbotron.gallery {
-	background-color: #0b7519;
-	border-radius: 15px 2px;
 	padding: 20px;
 	margin: 0px 10px 10px 10px;
 }
@@ -100,16 +114,13 @@ h1.display-4 {
 
 h1.sc {
 	text-align: center;
+	color: black;
 }
 
 .sc {
 	font-family: 'PT Serif', serif;
 	letter-spacing: 3px;
 	padding-bottom: 20px;
-}
-
-div.row {
-	text-align: center;
 }
 
 .colormail {
@@ -140,7 +151,7 @@ strong.mail {
 }
 
 img.img-thumbnail {
-	margin-bottom: 1px;
+	box-shadow: 2px 2px 5px black;
 }
 .col-lg-3.col-md-6.col-sm-6.color.last {
 	height: fit-content;
@@ -148,7 +159,7 @@ img.img-thumbnail {
 
 #footer {
     clear: both;
-    background-color: #49849e;
+    background-color: #06a9ee;
     padding: .5em;
     color: #fff;
     height: 100%;
@@ -217,9 +228,6 @@ img.instagrambottom {
 	}
 	p.lead {
 		width: 305px;
-	}
-	div.jumbotron {
-		background-color: #87d6f5;
 	}
 	
 	img.img-thumbnail.last {

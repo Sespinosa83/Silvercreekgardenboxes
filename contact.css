@@ -11,6 +11,7 @@ body {
 	background-image: url("images/gardenboxmain.jpg");
 	background-size: cover;
 	height: 100%;
+	color: darkslategray;
 }
 
 div #content {
@@ -18,6 +19,13 @@ div #content {
 	padding-top: 5%;
 }
 
+img.logo {
+	width: 200px;
+}
+
+.navbar {
+	padding: 2px 0px;
+}
 
 a.colorphone:hover {
 	text-decoration: none;
@@ -52,7 +60,7 @@ strong.mail {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color:black;
+	color: darkslategray;
 	font-weight: 700;
 }
 
@@ -64,8 +72,11 @@ container {
 	width: 100%;
 }
 
+b {
+	font-size: 30px;
+}
 div.card-body {
-	background-color: #49849e;
+	border-radius: 5px;
 }
 
 div.card.text-center {
@@ -73,12 +84,6 @@ div.card.text-center {
 	margin-right: auto;
 	width: 50%;
 	
-}
-
-div.jumbotron {
-	padding: 5px;
-	background-color: #49849e;
-	border-radius: 0px 0px 20px 20px
 }
 
 a.btn.btn-outline-primary {
@@ -105,20 +110,24 @@ h1.display-4 {
     margin-top: 20px;
 }
 
-.colormail {
-	color: white;
+li.info{
+
+	padding-top: 5px;
 }
 
 .colormail {
 	font-size: 20px;
+	color: black;
+	font-weight: 700;
 }
 
 .colorphone {
-	color: white;
+	color: black;
+	font-weight: 700;
 }
 
 div#content {
-	padding-top: 5px
+	padding-top: 5px;
 }
 
 h1.display-4 {
@@ -160,7 +169,7 @@ li.info {
 #footer {
 	width: 100%;
 	position: fixed;
-    background-color: #49849e;
+    background-color: #06a9ee;
     padding: .5em;
     color: #fff;
     bottom: 0;
@@ -213,7 +222,7 @@ img.instagrambottom {
 		width: 310px;
 	}
 	div.jumbotron {
-		background-color: #87d6f5;
+		background-color: #06a9ee;
 	}
 	.container-fluid {
     margin-top: 20px;

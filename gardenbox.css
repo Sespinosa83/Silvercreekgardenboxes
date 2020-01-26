@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body {
-	background-image: url("images/gardenboxmain.jpg");
+	background-image: url("images/erda-estremera-unsplash.jpg");
 	background-size: cover;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	color: darkslategray;
 }
@@ -68,7 +68,7 @@ div.jumbotron {
 
 div.jumbotron.jumbotron-fluid {
 	
-	background-color: #06a9ee;
+	background-color:#048fc9;
 }
 
 div.jumbotron.gallery {
@@ -87,14 +87,13 @@ div.jumbotron.gallery.one {
 }
 
 strong.phone {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 	font-size: 20px;
 }
 
 strong.mail {
-	font-family: 'PT Serif', serif;
-	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
 
@@ -166,20 +165,20 @@ img.card-img-top.six {
 
 h1.display-4 {
 	margin-bottom: 2px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
 .sc {
-	font-family: 'PT Serif', serif;
-	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
 	padding-bottom: 20px;
 	color: white;
 	text-align: center;
 }
 
 h1.sc {
-	color: black;
+	color: #71a02c;
+	text-shadow: 1px 1px black;
 }
 
 ul {
@@ -200,17 +199,16 @@ strong.titlecard {
 }
 
 strong.phone {
-	font-family: 'PT Serif', serif;
-	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 strong.mail {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
 strong.titlecard {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -224,7 +222,7 @@ h1.display-4 {
 
 #footer {
 	width: 100%;
-    background-color: #06a9ee;
+    background-color: #048fc9;
     padding: .5em;
     color: #fff;
     bottom: 0;
@@ -327,7 +325,7 @@ img.instagrambottom {
 		padding-right: 5px;
 	}
 	p.lead {
-		width: 305px;
+		width: 340px;
 	}
 	
 	div.card-body {

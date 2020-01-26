@@ -6,9 +6,9 @@ html{
 }
 
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-position: 15% 70%;
-	background-image: url("images/gardenboxmain.jpg");
+	background-image: url("images/erda-estremera-unsplash.jpg");
 	background-size: cover;
 	height: 100%;
 	color: darkslategray;
@@ -46,12 +46,12 @@ a.colormail:hover {
 }
 
 strong.phone {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
 strong.mail {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -88,7 +88,7 @@ div.card.text-center {
 
 a.btn.btn-outline-primary {
 	width: 250px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -98,7 +98,7 @@ a.btn.btn-outline-primary {
 
 h1.display-4 {
 	margin-bottom: 2px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -119,6 +119,7 @@ li.info{
 	font-size: 20px;
 	color: black;
 	font-weight: 700;
+	letter-spacing: 2px;
 }
 
 .colorphone {
@@ -141,7 +142,7 @@ h1.sc {
 h5.card-title {
 	text-align: center;
 	font-size: 40px;
-	font-family: 'PT Serif', serif; 
+	font-family: 'Montserrat', sans-serif;
 }
 ul {
 	list-style-type: none;
@@ -169,7 +170,7 @@ li.info {
 #footer {
 	width: 100%;
 	position: fixed;
-    background-color: #06a9ee;
+    background-color: #048fc9;;
     padding: .5em;
     color: #fff;
     bottom: 0;
@@ -219,10 +220,10 @@ img.instagrambottom {
 		margin-bottom: 20px;
 	}
 	p.lead {
-		width: 310px;
+		width: 340px;
 	}
 	div.jumbotron {
-		background-color: #06a9ee;
+		background-color: #048fc9;;
 	}
 	.container-fluid {
     margin-top: 20px;

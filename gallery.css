@@ -4,9 +4,9 @@
 
 
 body {
-	background-image: url("images/gardenboxmain.jpg");
+	background-image: url("images/erda-estremera-unsplash.jpg");
 	background-size: cover;
-	font-family: 'Quicksand', sans-serif;	
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	color: darkslategray;
 }
@@ -79,7 +79,7 @@ div.jumbotron {
 
 div.jumbotron.jumbotron-fluid {
 	
-	background-color: #06a9ee;
+	background-color:#048fc9;
 }
 
 div.jumbotron.gallery {
@@ -98,7 +98,9 @@ div.jumbotron.gallery.one {
 }
 
 i.fa.fa-camera-retro::before {
-	color: black;
+	color: #048fc9;
+	text-shadow: 1px -1px black;
+}
 }
 
 .lead {
@@ -108,17 +110,18 @@ i.fa.fa-camera-retro::before {
 h1.display-4 {
 	margin-bottom: 2px;
 	font-size: 25px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;;
 	letter-spacing: 3px;
 }
 
 h1.sc {
 	text-align: center;
-	color: black;
+	color: #71a02c;
+    text-shadow: 1px 1px black;
 }
 
 .sc {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;;
 	letter-spacing: 3px;
 	padding-bottom: 20px;
 }
@@ -132,12 +135,12 @@ h1.sc {
 }
 
 strong.phone {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
 strong.mail {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;;
 	letter-spacing: 3px;
 }
 
@@ -159,7 +162,7 @@ img.img-thumbnail {
 
 #footer {
     clear: both;
-    background-color: #06a9ee;
+    background-color: #048fc9;
     padding: .5em;
     color: #fff;
     height: 100%;
@@ -227,7 +230,7 @@ img.instagrambottom {
 		height: 90px;
 	}
 	p.lead {
-		width: 305px;
+		width: 340px;
 	}
 	
 	img.img-thumbnail.last {

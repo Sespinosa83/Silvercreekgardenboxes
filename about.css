@@ -6,9 +6,9 @@ html {
 }
 
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	/*(background-position: 15% 70%;*/
-	background-image: url("images/gardenboxmain.jpg");
+	background-image: url("images/erda-estremera-unsplash.jpg");
 	background-size: cover;
 	height: 100%;
 	color: darkslategray;
@@ -42,20 +42,22 @@ a.colormail:hover {
 }
 
 img.card-img {
-    margin: 2% 2% 0 2%;
-    box-shadow: -9px 7px 18px 0px;
+	width: 85%;	
+	margin: 2% 2% 0 2%;
+	box-shadow: 9px 7px 18px 0px;
+    
 }
 img.card-img.two {
 	margin-bottom: 2%;
-}
-
-div.card-body {
-	margin-top: 5%;
-	padding: 10%;
+	box-shadow: 9px 7px 18px 0px;
 }
 
 .social {
 	margin-left: 10px;
+}
+
+.col-md-7 .col-lg-6 {
+	text-align: center;
 }
 
 .my-4 {
@@ -63,12 +65,12 @@ div.card-body {
 }
 
 strong.phone {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
 strong.mail {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -85,13 +87,13 @@ strong.mail {
 	padding: 5px;
 }
 
-container {
+.container {
 	width: 100%;
 }
 
 div.jumbotron {
 	padding: 5px;
-	background-color: #06a9ee;
+	background-color: #048fc9;
 	border-radius: 0px 0px 20px 20px
 }
 
@@ -103,7 +105,7 @@ div.jumbotron.gallery {
 }
 
 a.btn.btn-outline-primary {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 	width: 100%;
 }
@@ -114,7 +116,7 @@ a.btn.btn-outline-primary {
 
 h1.display-4 {
 	margin-bottom: 2px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -148,7 +150,7 @@ h5.card-title {
 
 #footer {
 	width: 100%;
-    background-color: #06a9ee;
+    background-color: #048fc9;
     padding: .5em;
     color: #fff;
     bottom: 0;
@@ -213,8 +215,8 @@ img.instagrambottom {
 		list-style-type: none;
 		padding: 0px;
 	}
-	p.lead {
-		width: 310px;
+		p.lead {
+		width: 340px;
 	}
 	
 	div.jumbotron.gallery {
@@ -236,6 +238,9 @@ img.instagrambottom {
     width: fit-content;
     padding: 10px;
     margin: auto;
+}
+img.card-img.two {
+	display: none;
 }
 }
 }

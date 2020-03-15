@@ -148,6 +148,10 @@ h5.card-title {
 	text-align: center;
 }
 
+img.card-img.two.after{
+	display: none;
+}
+
 #footer {
 	width: 100%;
     background-color: #048fc9;
@@ -185,8 +189,23 @@ img.instagrambottom {
 @media only screen and (max-width: 768px){
 
 	div.card-body {
-    padding: 10px;
+	padding: 10px;
+	width: 660px;
    }
+   img.card-img {
+    width: 660px;
+}
+img.card-img.two.after{
+	display: inline;
+	box-shadow: none;
+}
+img.card-img.two {
+	display: none;
+	width: 100%;
+	box-shadow: 2px 0 5px 3px;
+}
+}
+
 @media only screen and (max-width: 425px){
 
 	#footer p.right {
@@ -242,5 +261,10 @@ img.instagrambottom {
 img.card-img.two {
 	display: none;
 }
+img.card-img.two.after{
+	display: inline;
+	box-shadow: none;
+	width: 100%;
+	box-shadow: 2px 0 5px 3px;
 }
 }

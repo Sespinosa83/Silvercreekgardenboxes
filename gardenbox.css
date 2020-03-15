@@ -121,10 +121,12 @@ p.card-text {
 
 p{
 	font-size: 19px;
+	line-height: 1.8em;
 }
 
 li {
 	font-size: 19px;
+	line-height: 1.8em;
 }
 
 li.nav-item {
@@ -144,7 +146,7 @@ ol {
 
 div.card-body.six {
 	margin-bottom: 20px;
-	height: 800px;
+	height: 875px;
 }
 
 div.card-img-top {
@@ -160,7 +162,7 @@ div.card-img-top {
 }
 
 img.card-img-top.six {
-	height: 30%;
+	height: 27%;
 }
 
 h1.display-4 {
@@ -262,7 +264,12 @@ img.instagrambottom {
 	}
 
 @media only screen and (max-width: 768px) {
-	
+	.container {
+		max-width: 900px;
+	}
+	img.card-img {
+		width: 660px;
+	}
 	img.card-img-top.one {
 		height: 35%;
 	}
@@ -286,6 +293,21 @@ img.instagrambottom {
 	}
 	dic.container {
 		padding: 0px;
+	}
+	.card-body{
+		margin-bottom: 18px;
+	}
+	div.jumbotron.gallery {
+		margin: 0px;
+	}
+	ol{
+		padding-inline-start: 0px;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	li {
+		font-size: 18px;
+		line-height: 24px;
 	}
 }
 
@@ -330,5 +352,9 @@ img.instagrambottom {
 	
 	div.card-body {
 		height: fit-content;
+	}
+	li {
+		font-size: 18px;
+		line-height: none;
 	}
 }

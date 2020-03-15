@@ -225,8 +225,9 @@ img.instagrambottom {
 	div.jumbotron {
 		background-color: #048fc9;;
 	}
-	.container-fluid {
-    margin-top: 20px;
-	margin-bottom: 20px;
-}
+	.card-body {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 1rem;
+	}
 }

@@ -101,7 +101,7 @@ i.fa.fa-camera-retro::before {
 	color: #048fc9;
 	text-shadow: 1px -1px black;
 }
-}
+
 
 .lead {
 	margin-bottom: 2px;
@@ -235,5 +235,11 @@ img.instagrambottom {
 	
 	img.img-thumbnail.last {
 		height: 450px;
+	}
+	button.navbar-toggler{
+		margin-right: 20px;
+	}
+	#navbarSupportedContent{
+		padding-left: 20px;
 	}
 }

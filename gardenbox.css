@@ -9,8 +9,6 @@ body {
 	color: darkslategray;
 }
 
-
-
 div #content {
 	text-align: center;
 	padding-top: 5%;
@@ -149,6 +147,10 @@ div.card-body.six {
 	height: 875px;
 }
 
+div.card-deck{
+	padding-bottom: 20px;
+}
+
 div.card-img-top {
 	height: 30%;
 }
@@ -157,8 +159,8 @@ div.card-img-top {
 	height: 45%;
 }
 
-.card-img-top.two {
-	height: 45%;
+.card-img-top.three{
+	height: 300px;
 }
 
 img.card-img-top.six {
@@ -356,5 +358,11 @@ img.instagrambottom {
 	li {
 		font-size: 18px;
 		line-height: none;
+	}
+	button.navbar-toggler{
+		margin-right: 20px;
+	}
+	#navbarSupportedContent{
+		padding-left: 20px;
 	}
 }

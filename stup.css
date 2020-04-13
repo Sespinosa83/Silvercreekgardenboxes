@@ -170,6 +170,11 @@ img.instagrambottom {
 	border-radius: 15px 15px 15px 15px;
 	margin-bottom: 5px;
 }
+@media only screen and (max-width: 768px) {
+	a.btn.btn-outline-primary {
+     	width: auto;
+	}
+}
 
 @media only screen and (max-width: 426px){
 
@@ -198,10 +203,12 @@ img.instagrambottom {
 	div.jumbotron {
 		background-color: #06a9ee;
 	}
-}
-
-@media only screen and (max-width: 768px) {
-	a.btn.btn-outline-primary {
-     	width: auto;
+	button.navbar-toggler{
+		margin-right: 20px;
+	}
+	#navbarSupportedContent{
+		padding-left: 20px;
 	}
 }
+
+

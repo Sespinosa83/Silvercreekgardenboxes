@@ -267,4 +267,10 @@ img.card-img.two.after{
 	width: 100%;
 	box-shadow: 2px 0 5px 3px;
 }
+button.navbar-toggler{
+	margin-right: 20px;
+}
+#navbarSupportedContent{
+	padding-left: 20px;
+}
 }

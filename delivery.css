@@ -7,7 +7,7 @@ html {
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	/*(background-position: 15% 70%;*/
+	background-position: 50% 70%;
 	background-image: url("images/erda-estremera-unsplash.jpg");
 	background-size: cover;
 	height: 100%;
@@ -127,6 +127,7 @@ a.btn.btn-outline-primary {
 
 div.card-deck {
 	padding: 5px;
+	height: 200px;
 }
 
 h1.display-4 {
@@ -141,9 +142,7 @@ div.card.mb-3{
 }
 
 hr {
-	height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px black;
+	border: 1px solid #71a02c;
 }
 
 div.card {
@@ -177,22 +176,30 @@ h1.display-4 {
 }
 
 b {
-	color:#e9ecef;
+	color: #71a02c;
 }
 
 h1.sc {
 	text-align: center;
+	text-shadow: 1px 1px black;
+	height: 60px;
+    border-radius: 20px 20px 0 0;
+    background-color: lightgrey;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
 }
 
 h5.card-title {
 	text-align: center;
-	font-size: 30px;
+	font-size: 22px;
 	color: darkslategray;
 	font-weight: bolder;
 }
 
 p.card-text.one {
-	font-size: 50px;
+	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
 }
 .card-text.one {
@@ -243,11 +250,20 @@ img.instagrambottom {
 	p.card-text.one {
 		font-size: 25px;
 	}
+	div.card-deck{
+		height: 255px;
+	}
 	div.card.mb-3 {
 		margin: 5px 5px 1px 5px;
 	}
 	div.jumbotron.gallery {
 		border-radius: 20px 20px 0px 0px;
+	}
+	h1.sc{
+		margin-bottom: -15px;
+	}
+	button.navbar-toggler{
+		margin-right: 20px;
 	}
 }
 
@@ -289,13 +305,16 @@ img.instagrambottom {
 	background-color: #06a9ee;
 	border-radius: 15px 2px;
 	width: 100%;
-}
+	}
 	body {
 		background-position: none;
 	}
 	div.card-body {
     padding: 10px;
-}
+	}
+	div.card-deck{
+		height: auto;
+	}
 	
 	hr.first{
 		margin-top: 5px;
@@ -304,6 +323,11 @@ img.instagrambottom {
 	hr{
 		margin-top: 5px;
 	}
+
+	h1.sc{
+		margin-bottom: -10px;
+		width: 45%;
+	}
 	
 	p.card-text.one {
 	text-shadow: 1px 1px 1px white;
@@ -311,10 +335,14 @@ img.instagrambottom {
 	
 	div.card-body {
 	box-shadow: none;
-	
 }
-		
 	h1.display-4 {
 		width: 360px;
+	}
+	button.navbar-toggler{
+		margin-right: 20px;
+	}
+	#navbarSupportedContent{
+		padding-left: 20px;
 	}
 }

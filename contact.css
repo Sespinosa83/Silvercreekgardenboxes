@@ -27,14 +27,14 @@ img.logo {
 	padding: 2px 0px;
 }
 
-a.colorphone:hover {
+.colorphone:hover {
 	text-decoration: none;
-	color: darkblue;
+	color: #048fc9;
 }
 
 a.colormail:hover {
 	text-decoration: none;
-	color: darkblue;
+	color: #048fc9;
 }
 
 .social {
@@ -68,7 +68,7 @@ strong.mail {
 	padding: 5px;
 }
 
-container {
+.container {
 	width: 100%;
 }
 
@@ -216,7 +216,7 @@ img.instagrambottom {
 	}
 		
 	div.card.text-center {
-		width: 80%;
+		width: 100%;
 		margin-bottom: 20px;
 	}
 	p.lead {
@@ -229,5 +229,15 @@ img.instagrambottom {
 		-ms-flex: 1 1 auto;
 		flex: 1 1 auto;
 		padding: 1rem;
+	}
+	a.colormail{
+		font-size: 20px;
+		color: #048fc9;
+	}
+	button.navbar-toggler{
+		margin-right: 20px;
+	}
+	#navbarSupportedContent{
+		padding-left: 20px;
 	}
 }

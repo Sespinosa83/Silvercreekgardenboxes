@@ -1,3 +1,4 @@
 # Silvercreekgardenboxes
 
-This is a site for a client who needed a site that will showcase their local utah buisness of landscaping and custom garden boxes. it will have mutiple pages, dynamic for mobile.
+This for a client who wanted a site that will showcase their buisnes of landscaping and custom garden boxes. It will have mutiple pages, and will be dynamic for mobile.
+Bootstrap, html, javascript, css
